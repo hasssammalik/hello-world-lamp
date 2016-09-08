@@ -16,12 +16,12 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="logo.png" />
-	<h1><?php echo "Hello world!"; ?></h1>
-	<?php if(!$link) { ?>
-		<h2>Can't connect to local MySQL Server!</h2>
-	<?php } else { ?>
+	<img id="logo" src="https://asmex.digital/wp-content/uploads/2015/09/asmex.digital_logo-web_2_360-300x57.png" />
+	<h1><?php echo "Hello Docker!"; ?></h1>
+	<?php // if(!$link) { ?>
+                <h2>Can't connect to local MySQL Server!</h2> !>
+	<?php //} else { ?>
 		<h2>MySQL Server version: <?php echo mysql_get_server_info(); ?></h2>
-	<?php } ?>
+	<?php// } ?>
 </body>
 </html>

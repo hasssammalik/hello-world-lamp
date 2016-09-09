@@ -17,11 +17,12 @@
 </head>
 <body>
 	<img id="logo" src="https://asmex.digital/wp-content/uploads/2015/09/asmex.digital_logo-web_2_360-300x57.png" />
-	<h1><?php echo "Hello Docker!"; ?></h1>
+	<h1><?php echo "Welcome to ASMEX Docker Container!"; ?></h1>
 	<?php  if(!$link) { ?>
                 <h2>Can't connect to local MySQL Server!</h2> 
 	<?php } else { ?>
 		<h2>MySQL Server version: <?php echo mysql_get_server_info(); ?></h2>
+		<h2>PHP version: <?php echo phpversion(); ?></h2>
 	<?php } ?>
 </body>
 </html>
